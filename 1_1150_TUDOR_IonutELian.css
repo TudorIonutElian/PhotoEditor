@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#PE-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #34495e;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+}
+#PE-toolbar img{
+    width: 25px;
+    height: 25px;
+}
+#PE-toolbar div {
+    display: inline-block;
+}
+
+#PE-toolbar 
+
+
+.toolbar-element input {
+    margin: 0 10px;
+}
+
+
+#reset {
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+#save {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+
+/* ----Reguli design Canvas---- */
+#PE-canvas {
+    width: 90%;
+    margin: 0 auto;
+}
+#canvas{
+    width: 100%;
+    border: 1px solid red;
+}
