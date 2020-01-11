@@ -6,7 +6,7 @@
 #PE-toolbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #34495e;
     color: #ffffff;
@@ -19,9 +19,12 @@
 }
 #PE-toolbar div {
     display: inline-block;
+    margin: 0 10px;
 }
 
-#PE-toolbar 
+#range-value-setata{
+    color: #2ecc71;
+}
 
 
 .toolbar-element input {
